@@ -10,7 +10,7 @@ module.exports = {
     },
     module: {
         loaders: [{
-            test: /bh\.js$/,
+            test: /\.bh\.js$/,
             loader: path.resolve(__dirname + '/../')
         }]
     }
